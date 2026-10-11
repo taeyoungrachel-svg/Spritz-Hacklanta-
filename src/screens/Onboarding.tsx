@@ -71,7 +71,7 @@ export function Onboarding() {
         {step === 0 && (
           <div key="welcome" className="flex min-h-full animate-fade-in flex-col">
             <div className="flex justify-end pt-4 sm:pt-6">
-              <button onClick={() => finish(false)} className="rounded-lg px-3 py-2 text-sm font-semibold text-muted hover:text-ink">Skip to demo</button>
+              <button onClick={() => finish(false)} className="rounded-lg px-3 py-2 text-sm font-semibold text-gray-400 hover:text-gray-500">Skip to demo</button>
             </div>
             <p className="text-[32px] leading-none font-extrabold tracking-tight text-accent-600">Spritz</p>
             <div className="relative mx-auto mt-6 h-[240px] w-full max-w-[300px]">
